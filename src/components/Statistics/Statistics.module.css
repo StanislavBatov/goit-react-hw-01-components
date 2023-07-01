@@ -1,0 +1,29 @@
+.statistics {
+  height: 200px;
+  width: 600px;
+  background-color: rgb(211, 207, 207);
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  color: rgb(71, 71, 245);
+}
+
+.statList {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 120px;
+  height: 100px;
+
+}

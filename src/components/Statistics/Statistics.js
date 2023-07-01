@@ -1,13 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import css from './Statistics.module.css';
 
 export const Statistics = ({ stats, title }) => {
   return (
-    <section className="statistics">
-      {title && <h2 className="title">{title}</h2>}
-      <ul className="stat-list">
+    <section className={css.statistics}>
+      {title && <h2 className={css.title}>{title}</h2>}
+      <ul className={css.statList}>
         {stats.map(el => (
-          <li className="item" color={getRandomHexColor()} key={el.id}>
+          <li className={css.item} style={{ backgroundColor: getRandomHexColor() }} key={el.id}>
             <span className="label">{el.label}</span>
             <span className="percentage">{el.percentage}%</span>
           </li>
