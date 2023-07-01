@@ -1,4 +1,5 @@
 .profile {
+  font-size: 30px;
   background-color: rgb(211, 207, 207);
   width: 600px;
   height: 700px;
@@ -34,9 +35,11 @@
 .stats {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  align-items: center;
+  gap: 30px;
   background-color: rgb(182, 182, 158);
   margin: 0 50px 50px 50px;
+  height: 150px;
 }
 
 .statsList {
